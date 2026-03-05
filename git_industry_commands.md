@@ -81,7 +81,43 @@ Screenshot proof : ![alt text](image-8.png)
 
 Command name :git log 
 Syntax : git log 
-Purpose :  
+Purpose :shows the complete commit history 
 Example : git log 
-Screenshot proof : 
+Screenshot proof : ![alt text](image-9.png)
 
+<!-- 3.git log --oneline -->
+Command name :git log --oneline
+Syntax : git log --oneline
+Purpose :Shows the commit history in a short, single-line format.
+Example : git log --oneline
+Screenshot proof : ![alt text](image-10.png)
+
+ <!-- 4.git log --graph -->
+Command name :git log --graph
+Syntax : git log --graph
+Purpose :Shows the commit history with a graphical (branch structure) representation in the terminal
+Example : git log --graph
+Screenshot proof : ![alt text](image-11.png)
+
+<!-- 5.git show -->
+
+Command name :git show
+Syntax : git show
+Purpose :Shows detailed information about a specific commit.
+Example : git show
+Screenshot proof : ![alt text](image-12.png)
+
+<!-- 6.git diff -->
+Command name :git diff
+Syntax : git diff
+Purpose :Shows the differences between , Modified files and last committed version Or between two commits
+Example : git diff
+Screenshot: ![alt text](image-13.png)
+
+<!-- 7.git diff --staged -->
+Command name :git diff --staged
+Syntax : git diff --staged
+Purpose :Shows the difference between staged changes and the last commit.
+Example : git diff --staged
+Screenshot: 
+<!-- 8.git blame -->
