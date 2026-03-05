@@ -183,5 +183,5 @@ Screenshot:![alt text](image-23.png)
 Command name :git mv
 Syntax : git rm <old-file-name> <new-file-name>
 Purpose :Moves or renames a file in the repository.
-Screenshot:![alt text](image-23.png)
-
+Example : git mv old.txt new.txt
+Screenshot:![alt text](image-24.png)
