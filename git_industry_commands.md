@@ -119,5 +119,69 @@ Command name :git diff --staged
 Syntax : git diff --staged
 Purpose :Shows the difference between staged changes and the last commit.
 Example : git diff --staged
-Screenshot: 
+Screenshot: ![alt text](image-14.png)
 <!-- 8.git blame -->
+Command name :git blame
+Syntax : git blame <file-name>
+Purpose :Shows who modified each line in a file and in which commit.
+Example : git blame git_industry_commands.md 
+Screenshot: ![alt text](image-15.png)
+
+<!-- 9.git reflog -->
+Command name :git reflog
+Syntax : git reflog
+Purpose :Shows the history of all HEAD movements (commits, checkouts, resets, etc.).
+Example : git reflog
+Screenshot: ![alt text](image-16.png)
+<!-- 10.git shortlog -->
+Command name :git shortlog
+Syntax : git shortlog
+Purpose :Shows a summary of commits grouped by author.
+Example : git shortlog
+Screenshot: ![alt text](image-17.png)
+
+<!-- 4. File Tracking Commands -->
+<!-- 1.git add -->
+Command name :git add
+Syntax : git add <file-name>
+Purpose :Adds a specific file to the staging area.
+Example : git add example.txt
+Screenshot: ![alt text](image-18.png)
+
+<!-- 2.git add . -->
+Command name :git add .
+Syntax : git add .
+Purpose :Adds all modified and new files in the current directory to the staging area.
+Example : git add .
+Screenshot: ![alt text](image-19.png)
+
+<!-- 3.git add -p -->
+Command name :git add -p
+Syntax : git add -p
+Purpose :Allows staging changes piece by piece (patch by patch) interactively.
+Example : git add -p
+Screenshot:![alt text](image-20.png)
+<!-- 4.git restore -->
+Command name :git restore
+Syntax : git restore
+Purpose :Restores a file in the working directory to its last committed state.
+Example : git restore git_industry_commands.md
+Screenshot:![alt text](image-21.png)
+<!-- 5.git restore --staged -->
+Command name :git restore --staged
+Syntax : git restore --staged <file-name>
+Purpose :Removes a file from the staging area but keeps the changes in the working directory.
+Example : git restore git_industry_commands.md
+Screenshot:![alt text](image-22.png)
+<!-- 6.git rm -->
+Command name :git rm
+Syntax : git rm <file-name>
+Purpose :Removes a file from the working directory and staging area.
+Example :git rm example.txt
+Screenshot:![alt text](image-23.png)
+<!-- 7.git mv -->
+Command name :git mv
+Syntax : git rm <old-file-name> <new-file-name>
+Purpose :Moves or renames a file in the repository.
+Screenshot:![alt text](image-23.png)
+
