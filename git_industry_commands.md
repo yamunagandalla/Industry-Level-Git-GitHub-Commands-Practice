@@ -185,3 +185,113 @@ Syntax : git rm <old-file-name> <new-file-name>
 Purpose :Moves or renames a file in the repository.
 Example : git mv old.txt new.txt
 Screenshot:![alt text](image-24.png)
+
+<!-- 5. Commit Commands -->
+<!-- 1.git commit -->
+Command name :git commit
+Syntax : git commit
+Purpose :Records the staged changes into the repository as a new commit.
+Example : git commit
+Screenshot:![alt text](image-25.png)
+
+<!-- 2.git commit -m -->
+Command name :git commit -m
+Syntax : git commit -m "commit message"
+Purpose :Records the staged changes into the repository as a new commit.
+Example : git commit -m  "adding files"
+Screenshot:![alt text](image-26.png)
+
+<!-- 3.git commit --amend -->
+Command name :git commit --amend
+Syntax : git commit --amend
+Purpose :Modifies the most recent commit (can change the commit message or add new staged changes).
+Example:git commit --amend
+Screenshot:![alt text](image-27.png)
+
+<!-- 4.git commit --no-edit -->
+Command name :git commit --no-edit
+Syntax : git commit --no-edit
+Purpose :Amends the last commit without changing the existing commit message.
+Example:git commit --no-edit
+Screenshot:![alt text](image-28.png)
+
+<!-- 6. Branch Management Commands -->
+<!-- 1.git branch -->
+Command name :git branch
+Syntax : git branch
+Purpose :Displays the list of branches in the repository.
+Example:git branch
+Screenshot:![alt text](image-29.png)
+
+<!-- 2.git branch -a -->
+Command name :git branch -a
+Syntax : git branch -a
+Purpose :Shows all branches including local and remote branches.
+Example:git branch -a
+Screenshot:![alt text](image-30.png)
+
+<!-- 3.git branch -d -->
+Command name :git branch -d
+Syntax : git branch -d <branch-name>
+Purpose :Deletes a branch safely (only if it has been merged).
+Example:git branch -d feature
+Screenshot:![alt text](image-31.png)
+
+<!-- 4.git branch -D -->
+Command name :git branch -D
+Syntax : git branch -D <branch-name>
+Purpose :Force deletes a branch even if it is not merged.
+Example:git branch -D
+Screenshot:![alt text](image-32.png)
+
+<!-- 5.git checkout -->
+Command name :git checkout
+Syntax : git checkout <branch-name>
+Purpose :Switches from the current branch to another branch.
+Example:git checkout feature
+Screenshot:![alt text](image-33.png)
+
+<!-- 6.git checkout -b -->
+Command name :git checkout -b
+Syntax : git checkout -b <branch-name>
+Purpose :Creates a new branch and switches to it.
+Example:git checkout -b working
+Screenshot:![alt text](image-34.png)
+
+<!-- 7.git switch -->
+Command name :git switch
+Syntax : git switch <branch-name>
+Purpose :Switches to another existing branch.
+Example:git switch main
+Screenshot:![alt text](image-35.png)
+
+<!-- 8.git switch -c -->
+Command name :git switch -c
+Syntax : git switch -c <branch-name>
+Purpose :Creates a new branch and switches to it.
+Example:git switch -c workingin
+Screenshot:![alt text](image-36.png)
+
+<!-- 7. Merge & Integration Commands -->
+<!-- 1.git merge -->
+Command name :git merge
+Syntax : git merge <branch-name>
+Purpose :Combines changes from another branch into the current branch.
+Example:git merge feature
+Screenshot:![alt text](image-37.png)
+
+<!-- 2.git merge --no-ff -->
+Command name :git merge --no-ff
+Syntax : git merge --no-ff <branch-name>
+Purpose :Merges a branch while always creating a new merge commit, even if fast-forward is possible..
+Example:git merge --no-ff feature
+Screenshot:![alt text](image-38.png)
+
+<!--  -->
+
+
+
+
+
+
+
